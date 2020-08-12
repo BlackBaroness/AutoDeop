@@ -1,0 +1,19 @@
+# keywords:
+# deop - deops player
+# execute - run command on console
+# log - Outputs a message to the console (the prefix is automatic)
+# {player} - player's nickname
+
+commands:
+  - deop
+  - log Operator {player} deopped.
+  - execute say Hi! I use AutoDeop by Black_Baroness!
+
+
+# Includes improved verification to the operator.
+# Even if the /op command was not applied to the player, this check will reveal the operator in the player.
+# Useful if you use things like LuckyPerms.
+use_advanced_opcheck: true
+
+# When the server enabling or disabling, it removes all operators.
+check_on_load_and_shutdown: true

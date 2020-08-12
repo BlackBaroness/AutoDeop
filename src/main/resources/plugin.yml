@@ -1,0 +1,9 @@
+name: AutoDeop
+version: ${project.version}
+main: ru.sapphirelife.Deop
+authors: [Black_Baroness]
+website: sapphirelife.ru
+commands:
+  autodeop:
+    usage: 'Usage: /autodeop reload'
+    description: 'This command can only be entered in the console.'
